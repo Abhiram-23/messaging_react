@@ -1,0 +1,24 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .unorderedList {
+    width: 100vw;
+  }
+  button {
+    background-color: #c2f784;
+    border-radius: 15px;
+    padding: 10px;
+    border-width: 0;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  input {
+    border: 1px solid #3e2c41;
+    padding: 10px;
+    font-weight: 15;
+  }
+  

@@ -1,0 +1,44 @@
+.allMessages {
+    margin: 15px;
+    overflow-y: auto;
+    padding: 5px;
+    height: 75vh;
+    border: 5px solid #a45d5d;
+    border-radius: 15px;
+  }
+  .agentMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  .userMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  .imageAndMessage {
+    display: flex;
+    flex-direction: row;
+    background-color: #316b83;
+    border-radius: 15px;
+    border-width: 0;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .timeSince {
+    color: #4a403a;
+  }
+  
